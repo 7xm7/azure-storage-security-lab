@@ -23,49 +23,56 @@ The goal is to build a **storage environment with restricted access and controll
 
 ### 1️⃣ Resource Group
 Resource group created to isolate all resources used in the lab.  
+
 ![Resource Group](/screenshots/resources_groups.png)
 
 ---
 
 ### 2️⃣ Storage Account
 Standard LRS Storage Account deployed for secure data management.  
+
 ![Storage Overview](/screenshots/storage_account.png)
 
 ---
 
-### 3️⃣ Blob Container (Private)
-Private container configured — no anonymous access allowed.  
+### 3️⃣ Blob Container 
+Private container configured.
+
 ![Blob Private](screenshots/blob_container.png)
 
 ---
 
 ### 4️⃣ SAS Token
 Generated a temporary SAS URL for controlled external access.  
-*(token partially hidden for security)*  
+ 
 ![SAS Token](screenshots/sas_token.png)
 
 ---
 
 ### 5️⃣ File Share
-File share created to simulate internal file access across the network.  
+File share created to simulate internal file access across the network.
+
 ![File Share](screenshots/file_share.png)
 
 ---
 
 ### 6️⃣ Private Endpoint
-Private endpoint configured — storage now accessible only through `Lab2-VNet`.  
+Private endpoint configured. Storage now accessible only through `Lab2-VNet`.  
+
 ![Private Endpoint](screenshots/private_endpoint.png)
 
 ---
 
 ### 7️⃣ Public Access Disabled
-Public access explicitly disabled to enforce private network-only connectivity.  
+Public access explicitly disabled to enforce private network only connectivity.  
+
 ![Networking Disabled](screenshots/public_access_disabled.png)
 
 ---
 
 ### 8️⃣ Role-Based Access Control (RBAC)
-RBAC applied using the **Reader** role for fine-grained access management.  
+RBAC applied using the **Reader** role for fine grained access management.  
+
 ![RBAC](screenshots/rbac.png)
 
 ---
@@ -75,7 +82,7 @@ RBAC applied using the **Reader** role for fine-grained access management.
 ✅ File share implemented for internal use  
 ✅ SAS Token tested for temporary access  
 ✅ Private endpoint and VNet isolation configured  
-✅ RBAC policies applied for least-privilege control  
+✅ RBAC policies applied for controlled access 
 
 ---
 
@@ -83,8 +90,7 @@ RBAC applied using the **Reader** role for fine-grained access management.
 - Azure Storage Security  
 - Private Networking (VNet + Endpoints)  
 - Role-Based Access Control (RBAC)  
-- Shared Access Signatures (SAS)  
-- Data Governance and Cost Awareness  
+- Shared Access Signatures (SAS)   
 
 ---
 
@@ -92,4 +98,4 @@ RBAC applied using the **Reader** role for fine-grained access management.
 **Xavier Mota**  
 Microsoft Certified: Azure Fundamentals (AZ-900)  
 AZ-104 in Progress | SOC Level 1 Certified  
-[LinkedIn](https://linkedin.com/in/xaviermota7) | [GitHub](https://github.com/7xm7)
+[LinkedIn](https://linkedin.com/in/xaviermota7) 
