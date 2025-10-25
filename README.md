@@ -23,7 +23,7 @@ The goal is to build a **storage environment with restricted access and controll
 
 ### 1️⃣ Resource Group
 Resource group created to isolate all resources used in the lab.  
-![Resource Group](01-resource-group.png)
+![Resource Group](resources_groups.png)
 
 ---
 
