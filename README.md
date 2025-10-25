@@ -29,44 +29,44 @@ Resource group created to isolate all resources used in the lab.
 
 ### 2️⃣ Storage Account
 Standard LRS Storage Account deployed for secure data management.  
-![Storage Overview](02-storage-overview.png)
+![Storage Overview](/screenshots/storage_account.png)
 
 ---
 
 ### 3️⃣ Blob Container (Private)
 Private container configured — no anonymous access allowed.  
-![Blob Private](03-blob-private.png)
+![Blob Private](screenshots/blob_container.png)
 
 ---
 
 ### 4️⃣ SAS Token
 Generated a temporary SAS URL for controlled external access.  
 *(token partially hidden for security)*  
-![SAS Token](04-sas-token.png)
+![SAS Token](screenshots/sas_token.png)
 
 ---
 
 ### 5️⃣ File Share
 File share created to simulate internal file access across the network.  
-![File Share](05-file-share.png)
+![File Share](screenshots/file_share.png)
 
 ---
 
 ### 6️⃣ Private Endpoint
 Private endpoint configured — storage now accessible only through `Lab2-VNet`.  
-![Private Endpoint](06-private-endpoint.png)
+![Private Endpoint](screenshots/private_endpoint.png)
 
 ---
 
 ### 7️⃣ Public Access Disabled
 Public access explicitly disabled to enforce private network-only connectivity.  
-![Networking Disabled](07-networking-disabled.png)
+![Networking Disabled](screenshots/public_access_disabled.png)
 
 ---
 
 ### 8️⃣ Role-Based Access Control (RBAC)
 RBAC applied using the **Reader** role for fine-grained access management.  
-![RBAC](08-rbac.png)
+![RBAC](screenshots/rbac.png)
 
 ---
 
