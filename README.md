@@ -71,7 +71,7 @@ Public access explicitly disabled to enforce private network only connectivity.
 ---
 
 ### 8️⃣ Role-Based Access Control (RBAC)
-RBAC applied using the **Reader** role for fine grained access management.  
+RBAC applied using the **Reader** role for controlled access. 
 
 ![RBAC](screenshots/rbac.png)
 
