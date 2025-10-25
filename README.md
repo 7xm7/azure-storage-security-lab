@@ -1,4 +1,4 @@
-# ☁️ Azure Storage Security & Access Management Lab
+# ☁️ Azure Storage Security & Access Management
 
 ## 🎯 Objective
 This lab demonstrates how to **secure data in Azure Storage** using private access, network isolation, RBAC, and temporary shared access.  
